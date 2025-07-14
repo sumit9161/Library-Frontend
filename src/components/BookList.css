@@ -1,0 +1,29 @@
+/* BookList.css */
+.action-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-right: 6px;
+}
+
+.action-button:hover {
+    background-color: darkred;
+}
+
+/* BookList.css */
+.action-buttons {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-right: 6px;
+}
