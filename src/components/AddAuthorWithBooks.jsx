@@ -82,7 +82,7 @@ export default function AddAuthorWithBooks() {
                             className="form-control mb-2"
                             value={book.title}
                             onChange={(e) => handleBookChange(index, "title", e.target.value)}
-                            required
+                            required 
                         />
                         <input
                             type="number"
@@ -96,7 +96,7 @@ export default function AddAuthorWithBooks() {
                 ))}
 
                 <button type="button" className="btn btn-secondary mb-3" onClick={addBookField}>
-                    Add Another Book
+                    Add Another Books
                 </button>
                 <br />
                 <button type="submit" className="btn btn-primary">Add Author with Books</button>
